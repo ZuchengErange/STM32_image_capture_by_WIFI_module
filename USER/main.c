@@ -1,11 +1,7 @@
 #include "sys.h"
 #include "delay.h"
 #include "usart.h"
-#include "led.h"
-//#include "key.h"
-//#include "lcd.h"
-//#include "usmart.h"  
-//#include "usart2.h"  
+#include "led.h" 
 #include "msp8266.h"  //msp8266的通信函数
 
 
@@ -30,7 +26,6 @@ int main(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置系统中断优先级分组2
 	delay_init(168);  //初始化延时函数
 //	uart_init(115200);		//初始化串口波特率为115200
-	//usart2_init(42,115200);		//初始化串口2波特率为115200
 	LED_Init();					//初始化LED 
  
 	while(OV2640_Init())//初始化OV2640
