@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.ino": "c",
+        "rs485.h": "c",
+        "msp8266.h": "c",
+        "led.h": "c",
+        "ov2640.h": "c"
+    }
+}
