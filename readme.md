@@ -10,7 +10,7 @@
 
 ## Reference
 
-1. The camera OV2640 driver and microsecond delay configuration refer to the ALIENTEK official STM32 product drivers. https://github.com/alientek-openedv/Products 
+1. Some devices and peripherals(OV2640, SCCB) driver and microsecond delay configuration refer to the ALIENTEK official STM32 product drivers. https://github.com/alientek-openedv/Products 
 
 2. ALK8266 WIFI module introduction: https://github.com/Anylinkin/ALK8266WIFI
 
